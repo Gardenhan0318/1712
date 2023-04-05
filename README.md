@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &b); //가변비용
     scanf("%d", &c); //노트북 가격
 
-    if (b >= c) printf("-1\n");
-    else printf("%d\n", a / (c - b) + 1);
-    return 0;
+   if (b >= c) printf("-1\n");
+   else printf("%d\n", a / (c - b) + 1);
+   return 0;
 }
